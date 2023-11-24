@@ -1,0 +1,17 @@
+body{
+	background-image: url("imagesBg.jpg");
+	background-repeat: no-repeat;
+    color: #ffffff;
+    font-size: 28px;
+    
+}
+
+.box1{
+    text-align: center;
+    padding: 40px 40px 5px 20px;
+}
+
+.box2{
+    text-align: center;
+    padding: 40px 40px 50px 113px;
+}

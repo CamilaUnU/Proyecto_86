@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+<title>Evaluacion de los alumnos</title>
+    <link rel="stylesheet" type="text/css" href="style_86.css" />
+    <script type="text/javascript" src="main_86.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Molengo' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<center>
+<div id="content">
+    <h1>Ingresa los nombres de los alumnos y sus puntajes</h1>
+    <div class="formLayout">
+        <label class = box1>Nombre del alumno:</label>
+        <input type="text" id="nombre_alumno"/><br/><br>
+
+        <label class = box2>Puntaje:</label>
+        <input type="text" id="puntaje"/><br/><br>
+        
+        <!--Agrega aquí el código para el botón Ordenar -->
+        <!--Nombra el botón como Agregar puntaje del alumno -->
+        <label>&nbsp;</label>
+        <input type="button" id="botón_agregar" value="Agregar puntaje del alumno"/><br/>
+    </div>
+
+    <h2>Ordenar alumnos por nombre</h2>
+
+<form id = "forma">
+    <p><textarea id="puntajes" rows="5" cols="30" disabled="disabled"></textarea></p>
+</form>
+
+    <div class="formLayout">
+        <label>Promedio de puntaje:</label>
+        <input type="text" id="promedio_puntaje" disabled="disabled"/><br/><br>
+
+        <label>&nbsp;</label>
+        <input type="button" id="borrar" value="Borrar puntajes de los alumnos" onclick="clear_click()"/><br/><br>
+
+        <label>&nbsp;</label> 
+        <input type="button" id="botón_ordenar" value="Ordenar por nombre del alumno"/><br/>
+    </div>
+    </center>
+</body>
+</html>
